@@ -1,2 +1,7 @@
-# TCC_MachineLearning_VLC
-Códigos desenvolvidos para o trabalho de conclusão de curso de Engenharia de Computação pelo aluno Lorenzo Moreira Donatti
+# TCC Lorenzo Donatti
+
+Códigos utilizados no Trabalho de Conclusão de Curso _Aplicação de algoritmos de aprendizado de máquina para a demodulação de sinais de comunicação por luz visível._ Desenvolvido pelo aluno de Engenharia de Computação Lorenzo Moreira Donatti.
+
+Neste trabalho será proposto um método composto de três etapas para a criação de um demodulador de sinais On-Off Keying (OOK) de comunicação por luz visível, sendo elas: aquisição dos dados, pré-processamento e filtragem dos dados, criação e treinamento dos algoritmos de aprendizado de máquina. Os dados foram obtidos em um conjunto de dados publicos disponibilizado por Ma et al. (2019), composto por diversas modulações vindas de um sistema de comunicação por luz visível que varia a distância do receptor e do emissor entre 0 cm e 180 cm.
+Os dados passarão por uma filtragem através de um filtro gaussiano, além de separados em duas abordagens, sendo elas: Implementar um modelo de aprendizado de máquina para cada distância, fazendo o uso de vários modelos, e implementar apenas um modelo de aprendizado de máquina para todas as distâncias, transformando em uma abordagem geral. 
+Os algoritmos de aprendizado de máquina abordados serão: árvores de decisão, métodos ensemble via bagging e boosting. A métrica utilizada será a acurácia dos modelos. Os algoritmos Random Forest e Gradient Boosting obtiveram as melhores acurácias, em ambos os casos. Além disso, o uso do filtro apresentou uma melhora da acurácia em ambas abordagens.
